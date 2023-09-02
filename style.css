@@ -1,0 +1,67 @@
+@charset "utf";
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+          } 
+    body{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    header{
+        width:100%;
+        height:50px;
+        background-color:plum;
+        padding:0;
+        margin-top:10px;
+        color:black;
+        font-size: 30px;
+        font-family:Sans-serif;
+    }
+    #code_box{
+        width: 450px;
+        height: 350px;
+        margin:auto;
+        margin-top :40px;
+    }
+    legend{
+        font-size:20px;
+        font-family:Sans-serif;
+        font-weight:bold;
+    }
+    #code{
+        width: 450px;
+        height: 238px;
+        border:none;
+        margin-top: 20px;
+        line-height:15px;
+        padding:0;
+        outline:none;
+    }
+    #run_btn{
+        padding:10px;
+        font-weight:bold;
+        margin:10px;
+    }
+    #result{
+        margin-top:20px;
+        width: 100%;
+        height:93%;
+        overflow:scroll;
+        padding:15px;
+
+    }
+    #result_box{
+        display:none;
+        margin:auto;
+        width: 450px;
+        height: 350px;
+        margin-top:40px;
+    }
+    #icon{
+        display:none;
+        padding:10px;
+        font-weight: bold;
+        margin:10px;
+    }
